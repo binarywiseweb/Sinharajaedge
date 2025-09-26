@@ -1158,34 +1158,3 @@ line-height: 35px;
 }
 /* Change only the hamburger icon color */
 /* Change only the hamburger icon color */
-.navbar-dark .navbar-toggler-icon {
-    background-color: #FFD700;
-}
-
-/* Optional: if you want three lines for the icon (Bootstrap 4/5) */
-.navbar-dark .navbar-toggler-icon {
-    background-image: none; /* remove default icon */
-    width: 30px;
-    height: 3px;
-    background-color: #FFD700;
-    display: block;
-    position: relative;
-}
-
-.navbar-dark .navbar-toggler-icon::before,
-.navbar-dark .navbar-toggler-icon::after {
-    content: "";
-    width: 30px;
-    height: 3px;
-    background-color: #FFD700;
-    position: absolute;
-    left: 0;
-}
-
-.navbar-dark .navbar-toggler-icon::before {
-    top: -10px;
-}
-
-.navbar-dark .navbar-toggler-icon::after {
-    top: 10px;
-}
