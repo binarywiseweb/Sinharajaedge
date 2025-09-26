@@ -1157,6 +1157,7 @@ line-height: 35px;
   color: #555; /* softer text color */
 }
 /* Change only the hamburger icon color */
+/* Change only the hamburger icon color */
 .navbar-dark .navbar-toggler-icon {
     background-color: #FFD700;
 }
@@ -1188,7 +1189,3 @@ line-height: 35px;
 .navbar-dark .navbar-toggler-icon::after {
     top: 10px;
 }
-
-
-
-
