@@ -1215,6 +1215,34 @@ line-height: 35px;
 html {
     scroll-padding-top: 86px; /* same as your header height */
 }
+.hamburger-icon {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #E28329; /* middle line */
+  position: relative;
+  border-radius: 2px;
+}
+
+.hamburger-icon::before,
+.hamburger-icon::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #E28329; /* top & bottom lines */
+  position: absolute;
+  left: 0;
+  border-radius: 2px;
+}
+
+.hamburger-icon::before {
+  top: -10px; /* position top line */
+}
+
+.hamburger-icon::after {
+  top: 10px; /* position bottom line */
+}
 
 
 
