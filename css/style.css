@@ -1184,32 +1184,6 @@ line-height: 35px;
 .hamburger-icon::after {
   top: 10px; /* position bottom line */
 }
-.header {
-    position: sticky; /* or fixed if you want */
-    top: 0;
-    width: 100%;
-    background-color: #fff; /* keep solid background */
-    z-index: 9999;
-}
-html {
-    scroll-behavior: smooth;
-}
-
-/* Offset all sections so titles are visible under sticky header */
-#hero,
-#about-section,
-#our-room-section,
-#gallery-section,
-#tour-packages,
-#contact-section {
-    scroll-margin-top: 100px; /* adjust to match your header height */
-}
-
-/* Optional: padding inside sections for spacing */
-section {
-    padding: 40px 0; /* vertical spacing inside sections */
-}
-
 
 
 
