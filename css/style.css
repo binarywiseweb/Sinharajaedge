@@ -1184,6 +1184,9 @@ line-height: 35px;
 .hamburger-icon::after {
   top: 10px; /* position bottom line */
 }
+html {
+    scroll-padding-top: 86px; /* same as your header height */
+}
 
 
 
