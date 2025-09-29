@@ -619,5 +619,21 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+         <script>
+  // Select all links inside the navbar collapse
+  const navLinks = document.querySelectorAll('#navbarsExample04 .nav-link');
+  const navbarCollapse = document.getElementById('navbarsExample04');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      // Collapse the menu when a link is clicked
+      const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+        toggle: true
+      });
+      bsCollapse.hide();
+    });
+  });
+</script>
+
    </body>
 </html>
